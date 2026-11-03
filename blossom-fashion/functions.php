@@ -92,6 +92,11 @@ require get_template_directory() . '/inc/toolkit-functions.php';
 require get_template_directory() . '/inc/dashboard/dashboard.php';
 
 /**
+ * PayLexer Recommendation Banner
+*/
+require get_template_directory() . '/inc/paylexer-banner.php';
+
+/**
  * Implement Local Font Method functions.
  */
 require get_template_directory() . '/inc/class-webfont-loader.php';

@@ -153,8 +153,8 @@ function blossom_fashion_scripts() {
     wp_enqueue_style( 'blossom-fashion-google-fonts', blossom_fashion_fonts_url(), array(), null );
     wp_enqueue_style( 'blossom-fashion-style', get_stylesheet_uri(), array(), BLOSSOM_FASHION_THEME_VERSION );
 
-    wp_enqueue_script( 'all', get_template_directory_uri() . '/js' . $build . '/all' . $suffix . '.js', array( 'jquery' ), '6.1.1', true );
-    wp_enqueue_script( 'v4-shims', get_template_directory_uri() . '/js' . $build . '/v4-shims' . $suffix . '.js', array( 'jquery' ), '6.1.1', true );
+    wp_enqueue_script( 'all', get_template_directory_uri() . '/js' . $build . '/all' . $suffix . '.js', array( 'jquery' ), '6.7.2', true );
+    wp_enqueue_script( 'v4-shims', get_template_directory_uri() . '/js' . $build . '/v4-shims' . $suffix . '.js', array( 'jquery' ), '6.7.2', true );
 	wp_enqueue_script( 'owl-carousel', get_template_directory_uri() . '/js' . $build . '/owl.carousel' . $suffix . '.js', array( 'jquery' ), '2.2.1', true );
     wp_enqueue_script( 'owlcarousel2-a11ylayer', get_template_directory_uri() . '/js' . $build . '/owlcarousel2-a11ylayer' . $suffix . '.js', array( 'jquery', 'owl-carousel' ), '0.2.1', true );
     wp_enqueue_script( 'jquery-waypoints', get_template_directory_uri() . '/js' . $build . '/jquery.waypoints' . $suffix . '.js', array( 'jquery' ), '4.0.1', true );

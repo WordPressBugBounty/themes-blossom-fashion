@@ -205,8 +205,8 @@ if( ! class_exists( 'Blossom_Fashion_Control_Repeater' ) ) {
                             wp_enqueue_script( 'wp-color-picker' );
                             wp_enqueue_style( 'wp-color-picker' );
     					}elseif( 'font' === $field['type'] ){
-                            wp_enqueue_script( 'all', get_template_directory_uri() . '/js/all.min.js', array( 'jquery' ), '5.6.3', true );
-                            wp_enqueue_script( 'v4-shims', get_template_directory_uri() . '/js/v4-shims.min.js', array( 'jquery', 'all' ), '5.6.3', true );
+                            wp_enqueue_script( 'all', get_template_directory_uri() . '/js/all.min.js', array( 'jquery' ), '6.7.2', true );
+                            wp_enqueue_script( 'v4-shims', get_template_directory_uri() . '/js/v4-shims.min.js', array( 'jquery', 'all' ), '6.7.2', true );
     					}
     				}
     			}
